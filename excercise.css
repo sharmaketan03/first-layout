@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    background-color:rgb(146, 146, 139) ;
+    height:60px;
+    align-items:center;
+    padding:2rem;
+}
+ul{
+    list-style:none;
+}
+ a{
+    text-decoration:none;
+}
+header ul{
+    display:flex;
+   
+}
+header h1{
+    text-transform:uppercase;
+}
+header span{
+    color:#fff;
+}
+header ul a{
+     color:#fff;
+     border-left:2px solid;
+     padding:1.5rem 1rem;
+}
+#image{
+    background-image: url(/arun/highrise.webp);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    background-size:cover;
+    height:500px;
+
+}
+#threeboxes{
+    display:flex;
+   
+}
+.box{
+    background-color:#fff;
+    border-radius:8px;
+     margin:0 1rem;
+     padding: 1rem 2rem;
+
+   
+}
+.color{
+    background-color:rgb(139, 139, 129);
+}
+section div ul a{
+    background-color:#fff;
+    width:100px;
+    display:block;
+    text-align:center;
+    height:40px;
+    margin:1rem;
+    padding:0.5rem;
+    
+    
+}
+.frstclass{
+    display:flex;
+    margin:1rem 1rem;
+    
+}
+.left{
+    border-left:2px solid;
+    padding:2rem 1rem;
+    
+}
+/* .margin{
+   margin:1rem 
+} */
+second{
+    margin-top:2rem;
+}
